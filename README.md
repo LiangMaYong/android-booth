@@ -22,3 +22,7 @@ android booth 蓝牙开发封装库
 		return StreamRuleData.byteMerger(header.getBytes(), contentData);
 	}
 ```
+##技术交流
+交流：QQ群297798093，博主QQ591694077
+
+email：ibeam@qq.com
