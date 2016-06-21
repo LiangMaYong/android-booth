@@ -22,6 +22,10 @@ android booth 蓝牙开发封装库
 		return StreamRuleData.byteMerger(header.getBytes(), contentData);
 	}
 ```
+
+##拓展
+Arduino 支持，见Arduino目录
+
 ##技术交流
 交流：QQ群297798093，博主QQ591694077
 
