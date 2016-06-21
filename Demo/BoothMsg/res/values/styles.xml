@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AnimFade" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="AppThemeFullscreen" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowAnimationStyle">@style/AnimFade</item>
+    </style>
+
+    <style name="Widget.Button.Toggle" parent="android:Widget">
+        <item name="android:background">@drawable/btn_toggle_bg</item>
+        <item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+        <item name="android:clickable">true</item>
+        <item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+    </style>
+
+    <style name="YourThemeName" parent="@android:Theme.Black">
+        <!-- 告诉Android当创建ToggleButton的时候使用自定义风格 -->
+        <item name="android:buttonStyleToggle">@style/Widget.Button.Toggle</item>
+        <!-- 在这里可以添加更多的选项... -->
+    </style>
+
+</resources>

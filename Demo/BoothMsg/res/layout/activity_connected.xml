@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/button_red_cicular"
+            android:onClick="back"
+            android:text="@string/back"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/msg_editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_edittext_bg"
+            android:hint=""
+            android:maxHeight="180dp"
+            android:minHeight="50dp"
+            android:padding="10dp"
+            android:textColor="#fff" >
+        </EditText>
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/button_info_cicular"
+            android:text="@string/send"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#10ffffff" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="#20ffffff"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#fff" />
+    <ScrollView
+        android:id="@+id/msg_scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:id="@+id/msg_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

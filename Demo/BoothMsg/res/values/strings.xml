@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BoothMsg</string>
+    <string name="contentDescription"></string>
+    <string name="reset">Reset&#8230;</string>
+    <string name="open">ON</string>
+    <string name="opening">ON&#8230;</string>
+    <string name="close">OFF</string>
+    <string name="closeing">OFF&#8230;</string>
+    <string name="find">Find</string>
+    <string name="finding">Find&#8230;</string>
+    <string name="back">Back</string>
+    <string name="send">Send</string>
+    <string name="discon">Discon</string>
+    <string name="NotStartBluetooth">Do not start the Bluetooth</string>
+    <string name="ClosingBluetooth">Closing the Bluetooth</string>
+    <string name="StartingBluetooth">Starting the Bluetooth</string>
+    <string name="device_title">Devices</string>
+    <string name="stop">Stop</string>
+    <string name="accept">Accept</string>
+    <string name="requesting">Requesting</string>
+
+</resources>
